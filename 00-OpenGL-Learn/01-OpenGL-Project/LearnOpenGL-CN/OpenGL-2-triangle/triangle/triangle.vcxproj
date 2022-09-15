@@ -80,8 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\00-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle\deps\glfw\include;C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\00-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\00-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle\deps\glfw\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>.\deps\glfw\include;.\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>.\deps\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
