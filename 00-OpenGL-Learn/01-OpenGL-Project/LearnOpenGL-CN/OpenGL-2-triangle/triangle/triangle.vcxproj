@@ -80,6 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\00-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle\deps\glfw\include;C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\00-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\00-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle\deps\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -123,6 +125,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
