@@ -39,6 +39,20 @@ int main() {
 	glfwGetFramebufferSize(window, &width, &height);
 	glViewport(0, 0, width, height);
 
+	unsigned int VBOId = 0;
+	/*
+	* 使用glGenBuffers后，它就会把buffer memory的ID保存在VBOId里
+	* 我们使用的是&VBOId，也就是glGenBuffers会修改VBOId的值
+	* 当然也可以声明一个数组类型，那么创建的3个buffer memory的id会依次保存在数组里
+	* 默认的ID是0，则我们生成的必然非0
+	* 官方文档指出，GL_INVALID_VALUE is generated if buffer is not a name previously returned form a call to glGenBuffers。
+	* 换句话说，这个名称虽然是GLuint类型的，但是你万万不能直接指定个常量比如说0
+	* 即，同一时间，不能绑定两个相同类型的缓冲对象
+	*/
+	glGenBuffers(1,&VBOId);
+	//printf("glGenBuffers ID: %d\n", VBOId);
+
+
 	while (!glfwWindowShouldClose(window)) {
 		
 		if (glfwGetKey(window, GLFW_KEY_ESCAPE)) {
