@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <glad/glad.h> 
 #include <GLFW\glfw3.h>
 
@@ -34,20 +34,20 @@ int main() {
 		glfwTerminate();
 		return -1;
 	}
-	//glViewportÖĞµÄ²ÎÊı¾ùÊÇGLADÀàĞÍ£¬Òò´Ë±ØĞëÔÙgladLoadGLLoaderºóÖ´ĞĞ
+	//glViewportä¸­çš„å‚æ•°å‡æ˜¯GLADç±»å‹ï¼Œå› æ­¤å¿…é¡»å†gladLoadGLLoaderåæ‰§è¡Œ
 	int width, height;
 	glfwGetFramebufferSize(window, &width, &height);
 	glViewport(0, 0, width, height);
 
 	unsigned int VBOId = 0;
 	/*
-	* Ê¹ÓÃglGenBuffersºó£¬Ëü¾Í»á°Ñbuffer memoryµÄID±£´æÔÚVBOIdÀï
-	* ÎÒÃÇÊ¹ÓÃµÄÊÇ&VBOId£¬Ò²¾ÍÊÇglGenBuffers»áĞŞ¸ÄVBOIdµÄÖµ
-	* µ±È»Ò²¿ÉÒÔÉùÃ÷Ò»¸öÊı×éÀàĞÍ£¬ÄÇÃ´´´½¨µÄ3¸öbuffer memoryµÄid»áÒÀ´Î±£´æÔÚÊı×éÀï
-	* Ä¬ÈÏµÄIDÊÇ0£¬ÔòÎÒÃÇÉú³ÉµÄ±ØÈ»·Ç0
-	* ¹Ù·½ÎÄµµÖ¸³ö£¬GL_INVALID_VALUE is generated if buffer is not a name previously returned form a call to glGenBuffers¡£
-	* »»¾ä»°Ëµ£¬Õâ¸öÃû³ÆËäÈ»ÊÇGLuintÀàĞÍµÄ£¬µ«ÊÇÄãÍòÍò²»ÄÜÖ±½ÓÖ¸¶¨¸ö³£Á¿±ÈÈçËµ0
-	* ¼´£¬Í¬Ò»Ê±¼ä£¬²»ÄÜ°ó¶¨Á½¸öÏàÍ¬ÀàĞÍµÄ»º³å¶ÔÏó
+	* ä½¿ç”¨glGenBuffersåï¼Œå®ƒå°±ä¼šæŠŠbuffer memoryçš„IDä¿å­˜åœ¨VBOIdé‡Œ
+	* æˆ‘ä»¬ä½¿ç”¨çš„æ˜¯&VBOIdï¼Œä¹Ÿå°±æ˜¯glGenBuffersä¼šä¿®æ”¹VBOIdçš„å€¼
+	* å½“ç„¶ä¹Ÿå¯ä»¥å£°æ˜ä¸€ä¸ªæ•°ç»„ç±»å‹ï¼Œé‚£ä¹ˆåˆ›å»ºçš„3ä¸ªbuffer memoryçš„idä¼šä¾æ¬¡ä¿å­˜åœ¨æ•°ç»„é‡Œ
+	* é»˜è®¤çš„IDæ˜¯0ï¼Œåˆ™æˆ‘ä»¬ç”Ÿæˆçš„å¿…ç„¶é0
+	* å®˜æ–¹æ–‡æ¡£æŒ‡å‡ºï¼ŒGL_INVALID_VALUE is generated if buffer is not a name previously returned form a call to glGenBuffersã€‚
+	* æ¢å¥è¯è¯´ï¼Œè¿™ä¸ªåç§°è™½ç„¶æ˜¯GLuintç±»å‹çš„ï¼Œä½†æ˜¯ä½ ä¸‡ä¸‡ä¸èƒ½ç›´æ¥æŒ‡å®šä¸ªå¸¸é‡æ¯”å¦‚è¯´0
+	* å³ï¼ŒåŒä¸€æ—¶é—´ï¼Œä¸èƒ½ç»‘å®šä¸¤ä¸ªç›¸åŒç±»å‹çš„ç¼“å†²å¯¹è±¡
 	*/
 	glGenBuffers(1,&VBOId);
 	//printf("glGenBuffers ID: %d\n", VBOId);
