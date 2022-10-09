@@ -1,0 +1,279 @@
+Microsoft Windows [版本 10.0.19044.1949]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\windows\system32>cd C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook serve
+系统找不到指定的路径。
+
+C:\windows\system32>cd C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook serve
+Live reload server started on port: 35729
+Press CTRL+C to quit ...
+
+info: parsing multilingual book, with 1 languages
+info: 7 plugins are installed
+info: 16 explicitly listed
+
+Error: Couldn't locate plugins "expandable-chapters, tbfed-pagefooter, splitter, lightbox, anchor-navigation-ex, katex, search-pro, code, github", Run 'gitbook install' to install plugins from registry.
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook install
+info: installing 9 plugins using npm@3.9.2
+info:
+info: installing plugin "expandable-chapters"
+info: install plugin "expandable-chapters" (*) from NPM with version 0.2.0
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
+`-- gitbook-plugin-expandable-chapters@0.2.0
+
+info: >> plugin "expandable-chapters" installed with success
+info:
+info: installing plugin "tbfed-pagefooter"
+runTopLevelLifecycles ->  | |######################################################################################---|
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-expandable-chapters@0.2.0
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+  `-- moment@2.29.4
+
+info: >> plugin "tbfed-pagefooter" installed with success
+info:
+info: installing plugin "splitter"
+runTopLevelLifecycles ->  | |######################################################################################---|
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-expandable-chapters@0.2.0
++-- gitbook-plugin-splitter@0.0.8
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+
+info: >> plugin "splitter" installed with success
+info:
+info: installing plugin "lightbox"
+runTopLevelLifecycles ->  \ |######################################################################################---|
+fetchMetadata -> 200      \ |#####################################################################--------------------|
+C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\aproba\index.js:25
+    if (args[ii] == null) throw missingRequiredArg(ii)
+                          ^
+
+Error: Missing required argument #1
+    at andLogAndFinish (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+    at fetchPackageMetadata (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+    at resolveWithNewModule (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\install\deps.js:490:12)
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\install\deps.js:491:7
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\iferr\index.js:13:50
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:37:12
+    at addRequestedAndFinish (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:67:5)
+    at returnAndAddMetadata (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:121:7)
+    at pickVersionFromRegistryDocument (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:138:20)
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\iferr\index.js:13:50
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook serve
+Live reload server started on port: 35729
+Press CTRL+C to quit ...
+
+info: parsing multilingual book, with 1 languages
+info: 10 plugins are installed
+info: 16 explicitly listed
+
+Error: Couldn't locate plugins "lightbox, anchor-navigation-ex, katex, search-pro, code, github", Run 'gitbook install' to install plugins from registry.
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook install
+info: installing 9 plugins using npm@3.9.2
+info:
+info: installing plugin "expandable-chapters"
+info: install plugin "expandable-chapters" (*) from NPM with version 0.2.0
+info: >> plugin "expandable-chapters" installed with success
+info:
+info: installing plugin "tbfed-pagefooter"
+info: install plugin "tbfed-pagefooter" (*) from NPM with version 0.0.1
+info: >> plugin "tbfed-pagefooter" installed with success
+info:
+info: installing plugin "splitter"
+info: install plugin "splitter" (*) from NPM with version 0.0.8
+info: >> plugin "splitter" installed with success
+info:
+info: installing plugin "lightbox"
+info: install plugin "lightbox" (*) from NPM with version 1.2.0
+fetchMetadata -> network  / |##################-----------------------------------------------------------------------|
+C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\aproba\index.js:25
+    if (args[ii] == null) throw missingRequiredArg(ii)
+                          ^
+
+Error: Missing required argument #1
+    at andLogAndFinish (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+    at fetchPackageMetadata (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+    at resolveWithNewModule (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\install\deps.js:490:12)
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\install\deps.js:491:7
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\iferr\index.js:13:50
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:37:12
+    at addRequestedAndFinish (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:67:5)
+    at returnAndAddMetadata (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:121:7)
+    at pickVersionFromRegistryDocument (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:138:20)
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\iferr\index.js:13:50
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook install
+info: installing 9 plugins using npm@3.9.2
+info:
+info: installing plugin "expandable-chapters"
+info: install plugin "expandable-chapters" (*) from NPM with version 0.2.0
+info: >> plugin "expandable-chapters" installed with success
+info:
+info: installing plugin "tbfed-pagefooter"
+info: install plugin "tbfed-pagefooter" (*) from NPM with version 0.0.1
+info: >> plugin "tbfed-pagefooter" installed with success
+info:
+info: installing plugin "splitter"
+info: install plugin "splitter" (*) from NPM with version 0.0.8
+info: >> plugin "splitter" installed with success
+info:
+info: installing plugin "lightbox"
+info: install plugin "lightbox" (*) from NPM with version 1.2.0
+fetchMetadata -> 304      | |##################-----------------------------------------------------------------------|
+C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\aproba\index.js:25
+    if (args[ii] == null) throw missingRequiredArg(ii)
+                          ^
+
+Error: Missing required argument #1
+    at andLogAndFinish (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+    at fetchPackageMetadata (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+    at resolveWithNewModule (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\install\deps.js:490:12)
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\install\deps.js:491:7
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\iferr\index.js:13:50
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:37:12
+    at addRequestedAndFinish (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:67:5)
+    at returnAndAddMetadata (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:121:7)
+    at pickVersionFromRegistryDocument (C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\lib\fetch-package-metadata.js:138:20)
+    at C:\Users\86178\.gitbook\versions\3.2.3\node_modules\npm\node_modules\iferr\index.js:13:50
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>npm install gitbook-plugin-*lightbox
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/gitbook-plugin-*lightbox - Not found
+npm ERR! 404
+npm ERR! 404  'gitbook-plugin-*lightbox@latest' is not in the npm registry.
+npm ERR! 404 Your package name is not valid, because
+npm ERR! 404  1. name can no longer contain special characters ("~'!()*")
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\86178\AppData\Roaming\npm-cache\_logs\2022-10-06T09_54_32_312Z-debug.log
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>npm install gitbook-plugin-* lightbox
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/gitbook-plugin-* - Not found
+npm ERR! 404
+npm ERR! 404  'gitbook-plugin-*@latest' is not in the npm registry.
+npm ERR! 404 Your package name is not valid, because
+npm ERR! 404  1. name can no longer contain special characters ("~'!()*")
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\86178\AppData\Roaming\npm-cache\_logs\2022-10-06T09_54_51_850Z-debug.log
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>npm install gitbook-plugin-lightbox
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book\package.json'
+npm WARN cpp-game-engine-book No description
+npm WARN cpp-game-engine-book No repository field.
+npm WARN cpp-game-engine-book No README data
+npm WARN cpp-game-engine-book No license field.
+
++ gitbook-plugin-lightbox@1.2.0
+added 16 packages from 10 contributors in 8.247s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>gitbook install
+info: installing 9 plugins using npm@3.9.2
+info:
+info: installing plugin "expandable-chapters"
+info: install plugin "expandable-chapters" (*) from NPM with version 0.2.0
+info: >> plugin "expandable-chapters" installed with success
+info:
+info: installing plugin "tbfed-pagefooter"
+info: install plugin "tbfed-pagefooter" (*) from NPM with version 0.0.1
+info: >> plugin "tbfed-pagefooter" installed with success
+info:
+info: installing plugin "splitter"
+info: install plugin "splitter" (*) from NPM with version 0.0.8
+info: >> plugin "splitter" installed with success
+info:
+info: installing plugin "lightbox"
+info: install plugin "lightbox" (*) from NPM with version 1.2.0
+info: >> plugin "lightbox" installed with success
+info:
+info: installing plugin "anchor-navigation-ex"
+info: install plugin "anchor-navigation-ex" (*) from NPM with version 1.0.14
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-anchor-navigation-ex@1.0.14
+| +-- colors@1.4.0
+| `-- github-slugid@1.0.1
++-- gitbook-plugin-expandable-chapters@0.2.0
++-- gitbook-plugin-lightbox@1.2.0
++-- gitbook-plugin-splitter@0.0.8
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+
+info: >> plugin "anchor-navigation-ex" installed with success
+info:
+info: installing plugin "katex"
+runTopLevelLifecycles ->  \ |######################################################################################---|
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-anchor-navigation-ex@1.0.14
++-- gitbook-plugin-expandable-chapters@0.2.0
++-- gitbook-plugin-katex@1.1.4
+| `-- katex@0.7.1
+|   `-- match-at@0.1.1
++-- gitbook-plugin-lightbox@1.2.0
++-- gitbook-plugin-splitter@0.0.8
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+
+info: >> plugin "katex" installed with success
+info:
+info: installing plugin "search-pro"
+runTopLevelLifecycles ->  \ |######################################################################################---|
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-anchor-navigation-ex@1.0.14
++-- gitbook-plugin-expandable-chapters@0.2.0
++-- gitbook-plugin-katex@1.1.4
++-- gitbook-plugin-lightbox@1.2.0
++-- gitbook-plugin-search-pro@2.0.2
+| `-- html-entities@1.2.0
++-- gitbook-plugin-splitter@0.0.8
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+
+info: >> plugin "search-pro" installed with success
+info:
+info: installing plugin "code"
+runTopLevelLifecycles ->  / |######################################################################################---|
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-anchor-navigation-ex@1.0.14
++-- gitbook-plugin-code@0.1.0
++-- gitbook-plugin-expandable-chapters@0.2.0
++-- gitbook-plugin-katex@1.1.4
++-- gitbook-plugin-lightbox@1.2.0
++-- gitbook-plugin-search-pro@2.0.2
++-- gitbook-plugin-splitter@0.0.8
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+
+info: >> plugin "code" installed with success
+info:
+info: installing plugin "github"
+runTopLevelLifecycles ->  - |######################################################################################---|
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book
++-- gitbook-plugin-anchor-navigation-ex@1.0.14
++-- gitbook-plugin-code@0.1.0
++-- gitbook-plugin-expandable-chapters@0.2.0
++-- gitbook-plugin-github@2.0.0
++-- gitbook-plugin-katex@1.1.4
++-- gitbook-plugin-lightbox@1.2.0
++-- gitbook-plugin-search-pro@2.0.2
++-- gitbook-plugin-splitter@0.0.8
+`-- gitbook-plugin-tbfed-pagefooter@0.0.1
+
+info: >> plugin "github" installed with success
+
+C:\Users\86178\Documents\GitHub\PROJECT\XFF-GITPROJ\cpp-game-engine-book>
