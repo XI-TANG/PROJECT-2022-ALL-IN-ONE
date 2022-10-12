@@ -45,13 +45,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <ExternalIncludePath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\02-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle-ex1\deps\glfw\include;C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\02-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle-ex1\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\02-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle-ex1\deps\glfw\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>.\deps\glfw\include;.\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>.\deps\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <ExternalIncludePath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\02-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle-ex1\deps\glfw\include;C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\02-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle-ex1\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>C:\Users\86178\Documents\GitHub\04-ALL-IN-ONE\PROJECT-2022-ALL-IN-ONE\02-OpenGL-Learn\01-OpenGL-Project\LearnOpenGL-CN\OpenGL-2-triangle\triangle-ex1\deps\glfw\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>.\deps\glfw\include;.\deps\glad\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>.\deps\glfw\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -59,6 +59,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\deps\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -74,6 +75,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\deps\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -85,11 +87,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deps\glad\glad.c" />
+    <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\FileOperation.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\SysInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Log.h" />
     <ClInclude Include="src\FileOperation.h" />
     <ClInclude Include="src\SysInfo.h" />
   </ItemGroup>
