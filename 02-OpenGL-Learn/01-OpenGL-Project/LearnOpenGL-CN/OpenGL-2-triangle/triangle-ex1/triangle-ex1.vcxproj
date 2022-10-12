@@ -86,6 +86,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Assert.cpp" />
     <ClCompile Include="deps\glad\glad.c" />
     <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\FileOperation.cpp" />
@@ -93,6 +94,7 @@
     <ClCompile Include="src\SysInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Assert.h" />
     <ClInclude Include="src\Log.h" />
     <ClInclude Include="src\FileOperation.h" />
     <ClInclude Include="src\SysInfo.h" />

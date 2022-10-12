@@ -6,6 +6,8 @@
 
 #include "SysInfo.h"
 #include "Log.h"
+#include "Assert.h"
+#include "Assert.cpp"
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -21,6 +23,8 @@ int main()
 	SandboxEngine::Log::Init();
 	SANDBOXENGINE_CORE_TRACE("test logging");
 	SANDBOX_ERROR("err info");
+	std::string s1 = "SSS";
+	SandboxEngine::Assert::SandboxAssert(s1, "aaaa",1000);
 
 	while (true)
 	{
